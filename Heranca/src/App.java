@@ -5,5 +5,9 @@ public class App {
         m1.calcularSalario();
         System.out.println("INSS: "+m1.calcularINSS());
         System.out.println("IR: "+m1.calcularIR());
+        
+        h1.calcularSalario();
+        System.out.println("INSS: "+h1.calcularINSS());
+        System.out.println("IR: "+h1.calcularIR());
     }
 }
